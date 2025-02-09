@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8"/>
+    <title>ONLINE BOOKSHOP</title>
+    <link rel="stylesheet" href="css/style.css"/> 
+    <script src="js/script.js"></script>
+    </head>
+
+    <body>
+     <!--Navigation Bar and Logo-->
+      <nav>
+       <div class="logo">
+         <h1 id=>ReadRave</h1>
+       </div>
+         <ul id="menuList"> 
+           <li><a class="active" href="index.html"> HOME</a></li>
+           <li><a href="#">ABOUT US</a></li>
+           <li><a href="#">CONTACT US</a></li>
+         </ul>
+       <div class="menu-icon">
+        <i class="fa-solid fa-square-caret-down" id="menuButton"></i>   
+        </div>
+     </nav>
+     <!--Payment Form-->
+     <form>
+      <h2>PAYMENT OPTIONS</h2>
+      <div class="form-group">
+      <label for="card">Card Number</label>
+      <input type="text"  id="card" placeholder="1111-2222-3333-4444">
+      </div>
+      <br><br>
+      <div class="form-group">
+      <label for="card">Expiry Date</label>
+      <div class="expiry-date">
+      <select id="expiry-month">
+        <option value="-1">Month</option>
+        <option value= 1>01</option>
+        <option value= 2>02</option>
+        <option value= 3>03</option>
+        <option value= 4>04</option>
+        <option value= 5>05</option>
+        <option value= 6>06</option>
+        <option value= 7>07</option>
+        <option value= 8>08</option>
+        <option value= 9>09</option>
+        <option value= 10>10</option>
+        <option value= 12>11</option>
+        <option value= 13>12</option>
+
+      </select>
+      <select id="expiry-year">
+        <option value="-1">Year</option>
+        <option value= 2023>2023</option>
+        <option value= 2024>2024</option>
+        <option value= 2025>2025</option>
+        <option value= 2026>2026</option>
+        <option value= 2027>2027</option>
+        <option value= 2028>2028</option>
+        <option value= 2029>2029</option>
+        <option value= 2030>2030</option>
+      </select>
+      </div>
+      </div>
+      <br><br>
+      <div class="form-group">
+      <label for="security">Security Code</label>
+      <input type="number"  id="security" placeholder="CVV">
+      </div>
+      <br><br>
+      <input id="pay-btn"   type="submit" value="Submit">
+     </form>
+     <script src="https://kit.fontawesome.com/6b8f34da57.js" crossorigin="anonymous"></script>
+    </body>
+   </html>
+
+    
+ 
